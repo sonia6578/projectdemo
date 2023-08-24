@@ -1,0 +1,51 @@
+/* Reset some default browser styles */
+html,
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the page height to 100% */
+html,
+body {
+  height: 100%;
+}
+
+/* Center and style the container */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 30%;
+}
+
+/* Create a column layout */
+.text {
+  width: 33.33%; /* One-third of the page */
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large; /* Center the text within the column */
+}
+
+.my-button1 {
+  padding: 10px 30px; /* Adjust padding for button size */
+  background-color: #fff; /* Background color */
+  color: #000000; /* Text color */
+  /* Remove the default button border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 3px; /* Add a pointer cursor on hover */
+}
+.my-button2 {
+  padding: 10px 30px; /* Adjust padding for button size */
+  background-color: #fff; /* Background color */
+  color: #000000; /* Text color */
+  /* Remove the default button border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 3px; /* Add a pointer cursor on hover */
+}

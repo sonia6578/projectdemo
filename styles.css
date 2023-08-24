@@ -1,0 +1,20 @@
+/* Style the button */
+.my-button {
+  padding: 10px 30px; /* Adjust padding for button size */
+  background-color: #fff; /* Background color */
+  color: #000000; /* Text color */
+  /* Remove the default button border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 500px; /* Add a pointer cursor on hover */
+}
+.student {
+  padding: 10px 30px; /* Adjust padding for button size */
+  background-color: #fff; /* Background color */
+  color: #000000; /* Text color */
+  /* Remove the default button border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+}
